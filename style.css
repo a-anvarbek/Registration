@@ -1,0 +1,67 @@
+.start{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border: 2px solid blue;
+    background-color: rgb(47, 45, 45);
+    color: white;
+    width: 35vw;
+    margin: auto;
+    margin-top: 200px;
+}
+.start h1{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+.start .name{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.start .parent{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.y{
+    color: red;
+}
+.y:hover{
+    color: blue;
+}
+.start .email{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+.start .word{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+.a{
+    padding: 10px;
+    border-radius: 15px;
+}
+.start .parent h4{
+    font-size: 18px;
+}
+.start .sub .submit{
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    margin: 80px;
+}
+
+.start .sub{
+    display: grid;
+}

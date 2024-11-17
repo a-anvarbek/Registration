@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.one .parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgb(62, 58, 58);
+    color: white;
+}
+.one .parent .logo h1{
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+}
+.one .parent .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.one .parent .menu li{
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.one .parent .menu li:hover{
+    color: red;
+}
+.one .parent .button button{
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(67, 67, 205);
+    color: white;
+}
+.space{
+    padding: 70px;
+}
+.two .parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgb(62, 58, 58);
+    color: white;
+}
+.two .parent .logo h1{
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+}
+.two .parent .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.two .parent .menu li{
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.two .parent .menu li:hover{
+    color: red;
+}
+.two .parent .menu .button button{
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(67, 67, 205);
+    color: white;
+}
+.three .parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgb(62, 58, 58);
+    color: white;
+}
+.three .parent .logo h1{
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+}
+.three .parent .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.three .parent .menu li{
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.three .parent .menu li:hover{
+    color: red;
+}
+.three .parent .menu .button button{
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(67, 67, 205);
+    color: white;
+}
+
